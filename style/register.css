@@ -1,0 +1,77 @@
+/* Geral */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica;
+}
+
+body {
+  background-color: #fafafa;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* MAIN CONTENT */
+#register-box {
+  width: 300px;
+  height: 400px;
+  border: 1px solid #dbdbdb;
+}
+
+.logo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.logo img {
+  width: 60%;
+  padding: 10px;
+}
+
+.content-block-two > p {
+  color: #a1a1a1;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+  padding: 10px;
+}
+
+.formulario {
+  display: flex;
+  justify-content: center;
+}
+
+.formulario > form > button.button-login-facebook {
+  background-color: rgba(0, 148, 246, 0.897);
+  color: #fff;
+  margin-top: 10px;
+  border-radius: 5px;
+  height: 30px;
+  font-size: 13px;
+  padding: 0;
+  font-weight: bold;
+  border: none;
+  width: 240px;
+  text-align: center;
+}
+
+#linha {
+  width: 300px;
+  height: 1px;
+  background-color: #ccc;
+  margin: 10px auto;
+}
+
+#ou1 {
+  background-color: #fafafa;
+  position: absolute;
+}
